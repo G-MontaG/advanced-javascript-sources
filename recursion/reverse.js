@@ -1,3 +1,5 @@
+// ============ FACTORIAL ==========
+
 function factorial(x) {
   if (x < 0) return;
   if (x === 0) return 1;
@@ -5,6 +7,8 @@ function factorial(x) {
 }
 
 console.log(factorial(3));
+
+// ============ REVERCE STRING ==========
 
 function revStr(str){
   if (str === '') return '';

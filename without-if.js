@@ -1,3 +1,5 @@
+// =========== WEEKEND SAMPLE =============
+
 // const weekendOrWeekday = (inputDate) => {
 //   const day = inputDate.getDay();
 //   if (day === 0 || day === 6) {
@@ -21,6 +23,7 @@
 // };
 // console.log(weekendOrWeekday(new Date()));
 
+// =========== DOUBLER SAMPLE =============
 
 // const doubler = (input) => {
 //   switch (typeof input) {

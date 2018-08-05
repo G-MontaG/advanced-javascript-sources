@@ -16,6 +16,30 @@ const categories = [
   { name: 'usa', parent: 'news' }
 ]
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 const arrangeCategories = (categories, parent = null) => {
   let result = {}
   categories
