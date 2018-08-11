@@ -32,3 +32,23 @@ console.log(example('hello'));
 
 // console.log("Pipe");
 // console.log(example2('hello'));
+
+// =============== COMPARE ==============
+
+// 'Hello'
+//   .replace(/Hello/g, 'Bye')
+//   .concat('!')
+//   .repeat(2)
+//   .split('!')
+//   .filter(x=>x!='!')
+//   .map(x=>'Hello').toString();
+
+// compose(
+//   replace(/Hello/g,'Bye'),
+//   concat('!'),
+//   repeat(2),
+//   split('!'),
+//   filter(x=>x!='!'),
+//   map(x=>'Hello'),
+//   toString
+//  )('Hello');
